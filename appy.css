@@ -1,4 +1,4 @@
-*{	padding: 0;	margin: 0;}body{background-image: url(image-1.png), url(d.jpg);
+*{	padding: 0;	margin: 0;}body{background-image:url(d.jpg);
   background-color:#000066;}.balloon{	height: 60px;	width: 55px;	background-color: crimson;	position: absolute;	top: 40%;	left: 10%;	border-radius: 50%; animation: move 2s ease-in infinite;}.balloon:before{	content: "";	height: 60px;	width: 6px;	position: absolute;	background-color: white;	top: 93%;left: 40%;
 }@keyframes move{	0%{		top: 100%;	}	100%{		top: 0%;	}}.balloon:nth-child(2){	left: 20%;	top: 40%;	background-color: yellow;	animation-duration: 3s;}.balloon:nth-child(3){	left: 30%;	top: 40%;	background-color: lightpink;	animation-duration: 4s;}
 .balloon:nth-child(4){	left: 40%;	top: 40%;	background-color: crimson;	animation-duration: 5s;}
